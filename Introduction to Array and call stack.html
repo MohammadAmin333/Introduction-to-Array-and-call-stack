@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script</title>
+</head>
+<body>
+    <p id="max0"></p>
+    <p id="max1"></p>
+    <p id="max2"></p>
+    <p id="max3"></p>
+    <p id="max4"></p>
+    <p id="max5"></p>
+    <p id="max6"></p>
+    <p id="max7"></p>
+
+    
+    <script>
+        
+      var fruits=["Apple", "Banana", "Mango", "Jackfruit", "Greap."];
+      var Alphabet=["A", "B", "C", "D", "E."];
+      var Numbers = ["0", "1", "2", "3", "4."];
+      var Words = ["Make", "Do", "Work", "School", "Book."];
+
+        
+    document.getElementById("max0").innerHTML = fruits.join("My Fev Fruits");
+    document.getElementById("max1").innerHTML = Words.pop();
+    document.getElementById("max1").innerHTML = Words
+    document.getElementById("max2").innerHTML = Numbers.push("5");
+    document.getElementById("max2").innerHTML = Numbers
+    document.getElementById("max3").innerHTML = Words.shift();
+    document.getElementById("max3").innerHTML = Words;
+    document.getElementById("max3").innerHTML = Words.unshift("Data");
+    document.getElementById("max3").innerHTML = Words;
+    
+    const name = ['Jawad', 'Mohammad', 'Rafa', 'Niaz'];
+    name[3] = "Faijul";
+    document.getElementById("max4").innerHTML = name;
+
+        bird[bird.length]="twitter";
+        document.getElementById("max5").innerHTML = bird;
+
+    document.getElementById("max5").innerHTML = name;
+        bird[bird.length] = "twitter";
+        document.getElementById("max6").innerHTML = bird;
+        const student1 = ['a', 'b', 'c'];
+        const student2 = ['x', 'y', 'z'];
+        const all_student = student1.concat(student2);
+        document.getElementById("max7").innerHTML = all_student;
+        //slicing method
+        const fruit1 = ['banana', 'orange', 'lemon', 'Apple', 'Mango'];
+        const fruit2 = fruit1.slice(2);
+
+        document.getElementById("max7").innerHTML = fruit1 + " <br> <br> " + fruit2;
+    
+
+    </script>
+
+</body>
+</html>
